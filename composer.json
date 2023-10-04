@@ -1,21 +1,25 @@
 {
-    "name": "joffy/magento2-invoicepdf",
+    "name": "joffyjose/magento2-invoicearabicpdf",
     "description": "This module using arabic font issue fixing using TCPDF",
-    "minimum-stability": "stable",
-    "authors": [
-        {
-            "name": "joffyjose",
-            "email": "joffymaths@gmail.com"
-        }
+    "keywords": [
+        "magento 2",
+        "TCPDF Arabic invoice"
     ],
-    "require": {
-        "php": "~7.3.0||~7.4.0||~8.0.0||~8.1.0"
-    },
-    "type": "magento2-module",
-    "version": "1.0.0",
     "license": [
         "proprietary"
     ],
+    "authors": [
+        {
+            "name": "joffy",
+            "email": "joffymaths@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
     "autoload": {
         "files": [
             "registration.php"
